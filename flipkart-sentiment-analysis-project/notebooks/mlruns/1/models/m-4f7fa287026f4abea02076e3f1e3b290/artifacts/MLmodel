@@ -1,0 +1,23 @@
+artifact_path: file:d:/bhuvanMainStorage/Downloads/flipkart-sentiment-analysis-project/notebooks/mlruns/1/models/m-4f7fa287026f4abea02076e3f1e3b290/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-4f7fa287026f4abea02076e3f1e3b290
+model_size_bytes: 25116
+model_uuid: m-4f7fa287026f4abea02076e3f1e3b290
+prompts: null
+run_id: 19c81a51f8194315892230edc9b0678c
+utc_time_created: '2026-02-09 11:31:57.212291'
